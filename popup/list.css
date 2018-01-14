@@ -1,0 +1,38 @@
+html, body {
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.panel-list-item {
+  cursor: pointer;
+}
+
+.panel-list-item .text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+.panel-list-item .text img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.panel-list-item .text-shortcut {
+  width: 100px;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.c1 { color: #d92015; }
+.c2 { color: #f25824; }
+.c3 { color: #ff9326; }
+.c4 { color: #ffcd02; }

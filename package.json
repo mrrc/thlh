@@ -1,0 +1,27 @@
+{
+  "name": "thlh",
+  "version": "1.1.0",
+  "description": "Tabs Hoarder's Little Helper",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrrc/thlh.git"
+  },
+  "keywords": [
+    "firefox",
+    "addon"
+  ],
+  "author": "Rytis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrrc/thlh/issues"
+  },
+  "homepage": "https://github.com/mrrc/thlh#readme",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-semistandard": "^17.0.0"
+  }
+}
