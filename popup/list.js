@@ -120,12 +120,12 @@ function activateDaysTab () {
 function listDays (dates) {
   const content = document.getElementById('tab-days-content');
 
-  if (content.childNodes.length > 1) {
+  if (content.children.length > 1) {
     displayContent('days');
     return;
   }
 
-  Object.keys(dates).forEach(function (date) {
+  Object.keys(dates).reverse().forEach(function (date) {
     content.appendChild(createDateItem(date, dates[date]));
   });
 
