@@ -1,10 +1,11 @@
 {
-  "name": "thlh",
+  "name": "Tabs Hoarder's Little Helper",
   "version": "1.1.0",
-  "description": "Tabs Hoarder's Little Helper",
-  "main": "background.js",
+  "description": "Everyone needs a little helper to get through their hoard of tabs...",
+  "main": "src/background.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/**/*.js",
+    "build": "web-ext build -s src -a dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/mrrc/thlh#readme",
   "devDependencies": {
     "eslint": "^8.50.0",
-    "eslint-config-semistandard": "^17.0.0"
+    "eslint-config-semistandard": "^17.0.0",
+    "web-ext": "^7.8.0"
   }
 }

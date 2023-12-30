@@ -6,7 +6,7 @@
     }
   },
   "name": "Tabs Hoarder's Little Helper",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Little help for managing a lot of tabs...",
 	"background": {
 		"scripts": ["background.js"]
